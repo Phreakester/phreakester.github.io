@@ -1,0 +1,13 @@
+:root{
+  --gradient: linear-gradient(90deg, #efd5ff 0%, #515ada 100%);
+}
+body{
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background: var(--gradient);
+}
+html{
+  height: 100%;
+}

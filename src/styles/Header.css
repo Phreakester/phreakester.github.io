@@ -1,0 +1,14 @@
+.Header-Container {
+    margin: 5px;
+    text-align: center;
+    height: 200px;
+  }
+  .header-text{
+    height: 50px;
+    margin: 25px;
+    text-align: center;
+    padding: auto;
+    font-size: 100px;
+    color: white;
+    text-decoration: none;
+  }
