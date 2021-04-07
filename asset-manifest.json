@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.11a16152.chunk.css",
-    "main.js": "/static/js/main.dbba2255.chunk.js",
-    "main.js.map": "/static/js/main.dbba2255.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.79111d10.js",
-    "runtime-main.js.map": "/static/js/runtime-main.79111d10.js.map",
-    "static/js/2.1e9354e5.chunk.js": "/static/js/2.1e9354e5.chunk.js",
-    "static/js/2.1e9354e5.chunk.js.map": "/static/js/2.1e9354e5.chunk.js.map",
-    "static/js/3.fb534e0e.chunk.js": "/static/js/3.fb534e0e.chunk.js",
-    "static/js/3.fb534e0e.chunk.js.map": "/static/js/3.fb534e0e.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.11a16152.chunk.css.map": "/static/css/main.11a16152.chunk.css.map",
-    "static/js/2.1e9354e5.chunk.js.LICENSE.txt": "/static/js/2.1e9354e5.chunk.js.LICENSE.txt",
-    "static/media/logo.103b5fa1.svg": "/static/media/logo.103b5fa1.svg"
+    "main.css": "/phreakester.github.io/static/css/main.11a16152.chunk.css",
+    "main.js": "/phreakester.github.io/static/js/main.dbba2255.chunk.js",
+    "main.js.map": "/phreakester.github.io/static/js/main.dbba2255.chunk.js.map",
+    "runtime-main.js": "/phreakester.github.io/static/js/runtime-main.0438eaca.js",
+    "runtime-main.js.map": "/phreakester.github.io/static/js/runtime-main.0438eaca.js.map",
+    "static/js/2.1e9354e5.chunk.js": "/phreakester.github.io/static/js/2.1e9354e5.chunk.js",
+    "static/js/2.1e9354e5.chunk.js.map": "/phreakester.github.io/static/js/2.1e9354e5.chunk.js.map",
+    "static/js/3.fb534e0e.chunk.js": "/phreakester.github.io/static/js/3.fb534e0e.chunk.js",
+    "static/js/3.fb534e0e.chunk.js.map": "/phreakester.github.io/static/js/3.fb534e0e.chunk.js.map",
+    "index.html": "/phreakester.github.io/index.html",
+    "static/css/main.11a16152.chunk.css.map": "/phreakester.github.io/static/css/main.11a16152.chunk.css.map",
+    "static/js/2.1e9354e5.chunk.js.LICENSE.txt": "/phreakester.github.io/static/js/2.1e9354e5.chunk.js.LICENSE.txt",
+    "static/media/logo.103b5fa1.svg": "/phreakester.github.io/static/media/logo.103b5fa1.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.79111d10.js",
+    "static/js/runtime-main.0438eaca.js",
     "static/js/2.1e9354e5.chunk.js",
     "static/css/main.11a16152.chunk.css",
     "static/js/main.dbba2255.chunk.js"
