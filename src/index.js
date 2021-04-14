@@ -6,9 +6,14 @@ import {
   Link
 } from "react-router-dom";
 import ReactDOM from 'react-dom';
+
 import './styles/index.css';
+
 import Home from './components/Home';
 import Projects from './components/Projects'
+import Resume from './components/Resume'
+import AboutMe from './components/AboutMe'
+
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
@@ -19,10 +24,10 @@ ReactDOM.render(
           <Projects />
         </Route>
         <Route path="/about-me">
-          <div>About Me</div>
+          <AboutMe />
         </Route>
         <Route path="/resume">
-          <div>Resume</div>
+          <Resume />
         </Route>
         <Route path="/">
           <Home />

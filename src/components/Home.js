@@ -1,14 +1,22 @@
+import { Link } from "react-router-dom";
+
 import './../styles/Home.css';
+import './../styles/index.css';
+
 import Header from "./shared/Header.js";
-import Intro from "./Intro.js";
-import Continue from "./Continue.js";
 
 function Home() {
   return (
-    <div className="main">
+    <div className="general-wrapper">
       <Header />
-      <Intro />
-      <Continue />
+      <div className="intro-container">
+        Hello! My name is Getty, and welcome to my personal website! Its a collection of some of my projects, and I hope you find at least some of them interesting!
+      </div>
+      <div className="continue-container">
+        <Link to="/about-me" className="continue-button">About Me</Link>
+        <Link to="/projects" className="continue-button">Projects</Link>
+        <Link to="/resume" className="continue-button">Resume</Link>
+      </div>
     </div>
   );
 }
