@@ -1,0 +1,41 @@
+.projects-wrapper {
+    display: flex;
+    width: 80%;
+    column-gap: 4%;
+}
+
+.project-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 13vw;
+    height: auto;
+    padding: 7%;
+    border-radius: 2vw;
+    transition: 0.4s;
+    font-weight: 17vw;
+}
+
+.flipped-card {
+    background-color: red;
+}
+
+.project-card:hover {
+    transform: rotateX(180deg);
+}
+
+.project-link {
+    text-decoration: none;
+}
+
+.project-img {
+    max-width: 13vw;
+    height: auto;
+}
+
+.project-description {
+    font-size: 2vw;
+    text-align: center;
+}
+

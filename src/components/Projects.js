@@ -5,28 +5,39 @@ import './../styles/Projects.css'
 
 import Header from "./shared/Header"
 
+import bee_pic from './../assets/BeeBlocks/bee.png'
+import { useState } from "react";
+
 const project_dict = {
     'BeeBlocks' : {
-        'description':'bleh bleh bleh',
-        'img_src':'idk',
+        'description':'BeeBlocks',
+        'img_src':bee_pic,
         'img_alt':'this is not a picture',
         'path':'/projects/beeblocks'
     },
     'MIDI Keyboard' : {
-        'description':'bleh blh bleh',
-        'img_src':'ik',
-        'img_alt':'this is a picture',
+        'description':'MIDI Keyboard',
         'path':'/projects/midikeyboard'
+    },
+    'Quantum Computer Simulator' : {
+        'description':'THE CARD FLIP THINGY IS NEAT',
+        'path':'/projects/quantumsim'
     }
 }
 
 function Project(props) {
+    const [isFlipped, setIsFlipped] = useState(false); 
+    const description = props.dict['description'];
+    const img_src = props.dict['img_src'];
+    const img_alt = props.dict['img_alt'];
+    const path = props.dict['path'];
+    console.log(description);
     return(
-    <Link to={props.path}>
+    <Link to={path} className='project-link'>
         <div className='project-card'>
-            {props.img_src && <img src={props.img_src} alt={props.img_alt}/>}
-            {props.description && <div className='project-description'>
-                {props.description}
+            {img_src && <img src={img_src} alt={img_alt} className='project-img'/>}
+            {description && <div className='project-description'>
+                {description}
             </div>}
         </div>
     </Link>
@@ -37,9 +48,9 @@ function Projects() {
     return(
         <div className='general-wrapper'>
             <Header />
-            <div className="projects-container">
+            <div className="projects-wrapper">
                 {Object.keys(project_dict).map((project_name) => 
-                    <Project description={project_dict[project_name]['img_alt']}/>
+                    <Project dict={project_dict[project_name]}/>
                 )
 
                 }
