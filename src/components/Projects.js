@@ -20,8 +20,23 @@ const project_dict = {
         'path':'/projects/midikeyboard'
     },
     'Quantum Computer Simulator' : {
-        'description':'THE CARD FLIP THINGY IS NEAT',
+        'description':'Quantum Computer Simulator',
         'path':'/projects/quantumsim'
+    },
+    'Disneyland Machine Learning' : {
+        'description':'Using machine learning to predict disneyland wait times',
+        'path':'/projects/disneyland'
+    },
+    'Meet your server' : {
+        'description':'I made the server currently serving your computer this site! Would you like to meet him?',
+        'path':'/projects/meetserver',
+    },
+    'SNES games':{
+        'description':'They are a waste of money',
+        'path':'/projects/SNESgames',
+    },
+    'test1':{
+        'description':'Test2',
     }
 }
 

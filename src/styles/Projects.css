@@ -1,5 +1,6 @@
 .projects-wrapper {
     display: flex;
+    flex-wrap: wrap;
     width: 80%;
     column-gap: 4%;
 }
@@ -15,6 +16,7 @@
     border-radius: 2vw;
     transition: 0.4s;
     font-weight: 17vw;
+    cursor: pointer;
 }
 
 .flipped-card {
@@ -22,11 +24,15 @@
 }
 
 .project-card:hover {
-    transform: rotateX(180deg);
+    transform: scale(1.1,1.1);
 }
 
 .project-link {
+    cursor: default;
     text-decoration: none;
+    width: 13vw;
+    height: min-content;
+    margin-bottom: 0px;
 }
 
 .project-img {
