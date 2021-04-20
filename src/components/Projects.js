@@ -5,43 +5,7 @@ import './../styles/Projects.css'
 
 import Header from "./shared/Header"
 
-import bee_pic from './../assets/BeeBlocks/bee.png'
-import { useState } from "react";
-
-const project_dict = {
-    'BeeBlocks' : {
-        'description':'BeeBlocks',
-        'img_src':bee_pic,
-        'img_alt':'this is not a picture',
-        'path':'/projects/beeblocks'
-    },
-    'MIDI Keyboard' : {
-        'description':'MIDI Keyboard',
-        'path':'/projects/midikeyboard'
-    },
-    'Quantum Computer Simulator' : {
-        'description':'Quantum Computer Simulator',
-        'path':'/projects/quantumsim'
-    },
-    'Disneyland Machine Learning' : {
-        'description':'Using machine learning to predict disneyland wait times',
-        'path':'/projects/disneyland'
-    },
-    'Meet your server' : {
-        'description':'I made the server currently serving your computer this site! Would you like to meet him?',
-        'path':'/projects/meetserver',
-    },
-    'SNES games':{
-        'description':'They are a waste of money',
-        'path':'/projects/SNESgames',
-    },
-    'test1':{
-        'description':'Test2',
-    }
-}
-
 function Project(props) {
-    const [isFlipped, setIsFlipped] = useState(false); 
     const description = props.dict['description'];
     const img_src = props.dict['img_src'];
     const img_alt = props.dict['img_alt'];
@@ -59,16 +23,15 @@ function Project(props) {
     );
 }
 
-function Projects() {
+function Projects(props) {
+    const project_dict = props.dict;
     return(
         <div className='general-wrapper'>
             <Header />
             <div className="projects-wrapper">
                 {Object.keys(project_dict).map((project_name) => 
                     <Project dict={project_dict[project_name]}/>
-                )
-
-                }
+                )}
             </div>
         </div>
     );

@@ -11,17 +11,27 @@ import './styles/index.css';
 
 import Home from './components/Home';
 import Projects from './components/Projects'
+import ProjectPage from './components/ProjectPage'
 import Resume from './components/Resume'
 import AboutMe from './components/AboutMe'
 
 import reportWebVitals from './reportWebVitals';
 
+
+
+import project_dict from './assets/projects_data'
+
 ReactDOM.render(
   <React.StrictMode>
     <Router>
       <Switch>
+        {Object.keys(project_dict).map((project_name) => 
+          <Route path={project_dict[project_name]['path']} >
+            <ProjectPage dict={project_dict[project_name]} />
+          </Route>
+        )}
         <Route path="/projects">
-          <Projects />
+          <Projects dict={project_dict} />
         </Route>
         <Route path="/about-me">
           <AboutMe />
