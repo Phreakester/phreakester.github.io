@@ -1,17 +1,21 @@
 import bee_pic from './BeeBlocks/bee.png'
 
+import BeeBlocksPage from './BeeBlocks/BeeBlocksPage'
+
 const project_dict = {
     'BeeBlocks' : {
         'title':'BeeBlocks',
         'description':'A fun product from a design-a-thon',
         'img_src':bee_pic,
         'img_alt':'this is not a picture',
-        'path':'/projects/beeblocks'
+        'path':'/projects/beeblocks',
+        'page':BeeBlocksPage,
     },
     'MIDI Keyboard' : {
         'title':'MIDI Keyboard',
         'description':'Taking a 70s keyboard into the 2020s',
-        'path':'/projects/midikeyboard'
+        'path':'/projects/midikeyboard',
+        'pagetext':'This is the basically rendered page text that will be put on the page if no specific page component is given but this file may get ugly if the text goes onnnnnn and onnnnn and onnnnnnn and onnnnn and onnnnnnn and onnnnn and onnnnnnn and onnnnn and onnnnnnn and onnnnn and onnnnnnn and onnnnn and onnnnnnn and onnnnn and onnnnnnn and onnnnn and onnnnnnn and onnnnn and onnnnnnn and onnnnn and onnnnnnn and onnnnn and onnnnnnn'
     },
     'Quantum Computer Simulator' : {
         'title':'Quantum Computer Simulator',
