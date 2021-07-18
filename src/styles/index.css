@@ -18,6 +18,15 @@ code {
     monospace;
 }
 
+a {
+  text-decoration: underline;
+}
+
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+
 .general-wrapper {
   max-width: 100%;
   height: 100%;

@@ -17,16 +17,6 @@ const project_dict = {
         'path':'/projects/midikeyboard',
         'pagetext':'This is the basically rendered page text that will be put on the page if no specific page component is given but this file may get ugly if the text goes onnnnnn and onnnnn and onnnnnnn and onnnnn and onnnnnnn and onnnnn and onnnnnnn and onnnnn and onnnnnnn and onnnnn and onnnnnnn and onnnnn and onnnnnnn and onnnnn and onnnnnnn and onnnnn and onnnnnnn and onnnnn and onnnnnnn and onnnnn and onnnnnnn and onnnnn and onnnnnnn'
     },
-    'Quantum Computer Simulator' : {
-        'title':'Quantum Computer Simulator',
-        'description':'No joke, learn the basics and start playing with your first quantum circuits!',
-        'path':'/projects/quantumsim'
-    },
-    'Disneyland Machine Learning' : {
-        'title':'Disneyland Machine Learning',
-        'description':'Using machine learning to predict disneyland wait times',
-        'path':'/projects/disneyland'
-    },
     'Meet your server' : {
         'title':'Meet your server',
         'description':'I made the server currently serving your computer this site! Would you like to meet him?',

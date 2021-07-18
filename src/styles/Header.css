@@ -9,6 +9,6 @@
     text-align: center;
     padding: auto;
     font-size: min(10vw, 150px);
-    color: white;
+    color: white !important;
     text-decoration: none;
   }
