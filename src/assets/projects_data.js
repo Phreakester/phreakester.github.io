@@ -1,6 +1,9 @@
 import bee_pic from './BeeBlocks/bee.png'
+import playnet_pic from './Playnet/playnet.svg'
+import ai_pic from './Rnn/ai_wordmark.svg'
 
 import BeeBlocksPage from './BeeBlocks/BeeBlocksPage'
+import Playnet from './Playnet/Playnet'
 
 const project_dict = {
     'BeeBlocks' : {
@@ -17,15 +20,25 @@ const project_dict = {
         'path':'/projects/midikeyboard',
         'pagetext':'This is the basically rendered page text that will be put on the page if no specific page component is given but this file may get ugly if the text goes onnnnnn and onnnnn and onnnnnnn and onnnnn and onnnnnnn and onnnnn and onnnnnnn and onnnnn and onnnnnnn and onnnnn and onnnnnnn and onnnnn and onnnnnnn and onnnnn and onnnnnnn and onnnnn and onnnnnnn and onnnnn and onnnnnnn and onnnnn and onnnnnnn and onnnnn and onnnnnnn'
     },
-    'Meet your server' : {
-        'title':'Meet your server',
-        'description':'I made the server currently serving your computer this site! Would you like to meet him?',
-        'path':'/projects/meetserver',
+    'RNN' : {
+        'title':'Recurrent Neural Network Larning Lab',
+        'description':'Explaining recurrent neural networks',
+        'path':'/projects/rnns',
+        'img_src':ai_pic,
+        'img_alt':'Blue logo showing computer traces'
     },
     'Playnet':{
-        'title':'Playnet',
-        'description':'They are a waste of money',
-        'path':'/projects/SNESgames',
+        'title':'Playnet Learning Lab',
+        'description':'Teaching schoolkids about the internet',
+        'img_src':playnet_pic,
+        'img_alt':'A logo of a planet with rings and a play button at its center',
+        'path':'/projects/playnets',
+        'page': Playnet,
+    },
+    'Cube':{
+        'title':'Magic: The Gathering Cube',
+        'description':'Designing a custom trading card set',
+        'path':'/projects/cube',
     },
   }
 
