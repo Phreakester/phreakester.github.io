@@ -1,4 +1,4 @@
-import bee_pic from './BeeBlocks/bee.png'
+import bee_pic from './BeeBlocks/Bee2.svg'
 import playnet_pic from './Playnet/playnet.svg'
 import ai_pic from './Rnn/ai_wordmark.svg'
 import cobra_pic from './Cube/cobra.png'
@@ -9,6 +9,9 @@ import react_pic from './Site/react.png'
 import BeeBlocksPage from './BeeBlocks/BeeBlocksPage'
 import Playnet from './Playnet/Playnet'
 import Cube from './Cube/Cube'
+import Rnn from './Rnn/Rnn.js'
+import Midi from './MIDI/Midi.js'
+import Website from './Site/Website.js'
 
 const project_dict = {
     'BeeBlocks' : {
@@ -23,16 +26,17 @@ const project_dict = {
         'title':'MIDI Keyboard',
         'description':'Taking a 70s keyboard into the 2020s',
         'path':'/projects/midikeyboard',
-        'pagetext':'This is the basically rendered page text that will be put on the page if no specific page component is given but this file may get ugly if the text goes onnnnnn and onnnnn and onnnnnnn and onnnnn and onnnnnnn and onnnnn and onnnnnnn and onnnnn and onnnnnnn and onnnnn and onnnnnnn and onnnnn and onnnnnnn and onnnnn and onnnnnnn and onnnnn and onnnnnnn and onnnnn and onnnnnnn and onnnnn and onnnnnnn and onnnnn and onnnnnnn',
         'img_src': piano_pic,
-        'img_alt': 'A logo of a piano / keeyboard'
+        'img_alt': 'A logo of a piano / keeyboard',
+        'page': Midi,
     },
     'RNN' : {
         'title':'Recurrent Neural Network Larning Lab',
         'description':'Explaining recurrent neural networks',
         'path':'/projects/rnns',
         'img_src':ai_pic,
-        'img_alt':'Blue logo showing computer traces'
+        'img_alt':'Blue logo showing computer traces',
+        'page':Rnn,
     },
     'Playnet':{
         'title':'Playnet Learning Lab',
@@ -55,7 +59,8 @@ const project_dict = {
         'description':'The inner workings of the site you are currently on',
         'path':'/projects/site',
         'img_src': react_pic,
-        'img_alt': 'The React logo, which looks like a blue atom'
+        'img_alt': 'The React logo, which looks like a blue atom',
+        'page': Website,
 
     },
   }
