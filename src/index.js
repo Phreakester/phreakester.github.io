@@ -13,7 +13,7 @@ import Home from './components/Home';
 import Projects from './components/Projects'
 import ProjectPage from './components/ProjectPage'
 import Resume from './components/Resume'
-import AboutMe from './components/AboutMe'
+import Organizations from './components/Organizations'
 
 import reportWebVitals from './reportWebVitals';
 
@@ -44,8 +44,8 @@ ReactDOM.render(
         <Route path="/projects">
           <Projects dict={project_dict} />
         </Route>
-        <Route path="/about-me">
-          <AboutMe />
+        <Route path="/organizations">
+          <Organizations />
         </Route>
         <Route path="/resume">
           <Resume />
