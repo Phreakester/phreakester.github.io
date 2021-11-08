@@ -13,7 +13,7 @@ function Home() {
         Hello! My name is Getty, and welcome to my personal website! Its a collection of some of my projects, and I hope you find at least some of them interesting!
       </div>
       <div className="continue-container">
-        <Link to="/organizations" className="continue-button">Organizations</Link>
+        {/* <Link to="/organizations" className="continue-button">Organizations</Link> */}
         <Link to="/projects" className="continue-button">Projects</Link>
         <Link to="/resume" className="continue-button">Resume</Link>
       </div>

@@ -19,6 +19,7 @@
     font-weight: 17vw;
     cursor: pointer;
     justify-content: space-evenly;
+    box-shadow: 0 0.5vw 0.5vw 0 rgba(0, 0, 0, 0.2);
 }
 
 .flipped-card {

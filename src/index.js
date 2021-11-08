@@ -1,9 +1,8 @@
 import React from 'react';
 import {
   BrowserRouter as Router,
-  Switch,
+  Routes,
   Route,
-  Link
 } from "react-router-dom";
 import ReactDOM from 'react-dom';
 
@@ -35,25 +34,15 @@ css_body.style.setProperty("--gradient", gradient)
 ReactDOM.render(
   <React.StrictMode>
     <Router>
-      <Switch>
+      <Routes>
         {Object.keys(project_dict).map((project_name) => 
-          <Route path={project_dict[project_name]['path']} >
-            <ProjectPage dict={project_dict[project_name]} />
-          </Route>
+          <Route path={project_dict[project_name]['path']} element={<ProjectPage dict={project_dict[project_name]} />} />
         )}
-        <Route path="/projects">
-          <Projects dict={project_dict} />
-        </Route>
-        <Route path="/organizations">
-          <Organizations />
-        </Route>
-        <Route path="/resume">
-          <Resume />
-        </Route>
-        <Route path="/">
-          <Home />
-        </Route>
-      </Switch>
+        <Route path="/projects" element={<Projects dict={project_dict} />} />
+        <Route path="/organizations" element={<Organizations />} />
+        <Route path="/resume" element={<Resume />} />
+        <Route path="/" element={<Home /> } />
+      </Routes>
     </Router>
   </React.StrictMode>,
   document.getElementById('root')
