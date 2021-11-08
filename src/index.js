@@ -27,9 +27,7 @@ let gradients = [
 const gradient = gradients[Math.floor(Math.random() * gradients.length)];
 console.log(gradient);
 var css_body = document.querySelector("body");
-css_body.style.setProperty("--gradient", gradient)
-
-
+css_body.style.setProperty("--gradient", gradient);
 
 ReactDOM.render(
   <React.StrictMode>
