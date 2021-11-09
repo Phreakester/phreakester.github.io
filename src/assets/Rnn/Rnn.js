@@ -18,6 +18,10 @@ function Rnn(){
                 communication of the learning lab. We are still in the design phase, and are currently 
                 working with a designer to visualize the website before we begin to implement our content.
             </p>
+            <p>
+                Some of the progress we have made so far can be found in our early design figma <a href='https://www.figma.com/file/lX9LTuE5eAonPW0qdnWmkH/Initial-Rough-Design-(Copy)' target="_blank" rel="noopener noreferrer"> here</a>, but please note that this project is still
+                in early development and ill update this page as we continue to work on it.
+            </p>
         </div>
     )
 }

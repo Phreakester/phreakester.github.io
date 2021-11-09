@@ -47,6 +47,12 @@ const project_dict = {
         'img_alt':'Blue logo showing computer traces',
         'page':Rnn,
     },
+    'Budgie': {
+        'title': 'Budgie',
+        'description': 'A musical tool to help teach rhythm',
+        'path': '/projects/budgie',
+        
+    },
     'Website':{
         'title':'Personal Website',
         'description':'The inner workings of the site you are currently on',

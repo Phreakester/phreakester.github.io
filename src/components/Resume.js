@@ -12,11 +12,11 @@ function Resume() {
         <div className='general-wrapper'>
             <Header />
             <div className='resume-wrapper'>
-                <div className='resume-background'>
-                    <img className = 'resume-img' src={ResumePic} alt='My Resume, for accessible access download as a pdf then use a pdf reader' />
-                </div>
                 <div className='resume-download'>
                     You can download my resume <a  href={ResumeFile} download="Getty_George_Resume.pdf">here</a>
+                </div>
+                <div className='resume-background'>
+                    <img className = 'resume-img' src={ResumePic} alt='My Resume, for accessible access download as a pdf then use a pdf reader' />
                 </div>
                 {/* <Document file={ResumeFile} /> */}
             </div>

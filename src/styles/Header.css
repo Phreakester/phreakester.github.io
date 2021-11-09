@@ -8,7 +8,14 @@
     margin: 25px;
     text-align: center;
     padding: auto;
-    font-size: min(10vw, 150px);
+    font-size: min(700%, 150px);
     color: white !important;
     text-decoration: none;
   }
+
+  @media screen and (max-width: 1000px) {
+    
+    .header-text{
+      font-size: min(200%, 100px);
+    }
+}

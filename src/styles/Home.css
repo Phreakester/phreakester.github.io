@@ -15,14 +15,14 @@ html{
 }
 
 .intro-container{
-  height: auto;
-  width: 91%;
+  height: 40%;
+  width: 90%;
   background-color: white;
   border-radius: 5vw;
   padding: 2%;
   color: black;
   font-weight: bold;
-  font-size: min(3vw, 50px);
+  font-size: min(200%, 50px);
   text-align: center;
   box-shadow: 0 0.5vw 0.5vw 0 rgba(0, 0, 0, 0.2);
 }
@@ -41,7 +41,7 @@ text-align: center;
 justify-content: center;
 text-decoration: none;
 padding: 3%;
-font-size: min(5vw, 80px);
+font-size: 400%;
 font-weight: bold;
 height: auto;
 background-color: white;
@@ -70,4 +70,13 @@ box-shadow: 0 0.5vw 0.5vw 0 rgba(0, 0, 0, 0.2);
 	100% {
 		background-position: 0% 50%;
 	}
+}
+
+@media screen and (max-width: 1000px) {
+    
+  .continue-container {
+      grid-template-columns: auto;
+      row-gap: 15%;
+  }
+
 }
