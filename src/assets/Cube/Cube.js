@@ -1,9 +1,14 @@
+import { Link } from 'react-router-dom';
+
 import './../../styles/ProjectPage.css'
 import './../../styles/index.css'
+
+import ProjectHeader from '../../components/shared/ProjectHeader'
 
 function Cube() {
     return(
         <div className='ppage-body'>
+            <ProjectHeader title='Magic: The Gathering Cube' />
             <p> 
                 Magic: The Gathering is a popular trading card game that I enjoy playing casually with my friends. Players can cast powerful spells 
                 and summon mythical creatures to help defeat their opponent. There are many different ways to
@@ -29,6 +34,9 @@ function Cube() {
                 The sorted list of cards found in my cube can be found <a 
                 href="https://cubecobra.com/cube/list/13rvu"
                 target="_blank" rel="noopener noreferrer">here.</a>
+            </p>
+            <p>
+                <Link to="/projects">Back to Projects</Link>
             </p>
         </div>
     )

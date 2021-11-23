@@ -1,8 +1,11 @@
-import { Link } from "react-router-dom";
+import { Link } from 'react-router-dom';
+
+import ProjectHeader from "../../components/shared/ProjectHeader";
 
 function Website() {
     return(
         <div className='ppage-body'>
+            <ProjectHeader title='Personal Website' />
             <p>
                 Development on this site began far into my first year at UCLA. Original implementation of the site involved
                 only HTML and CSS, but to gain more experience using the tools I would use in teachLA, I switched
@@ -22,6 +25,9 @@ function Website() {
             <p>
                 I will continue to work on and update the site as I get better at React and web development as a whole. Its been a fun project so far and i'm excited to see what
                 it will turn into in the future.
+            </p>
+            <p>
+                <Link to="/projects">Back to Projects</Link>
             </p>
 
         </div>

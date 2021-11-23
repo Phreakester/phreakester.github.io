@@ -1,9 +1,11 @@
 import { Link } from "react-router-dom";
 
+import ProjectHeader from "../../components/shared/ProjectHeader";
 
 function Rnn(){
     return(
         <div className='ppage-body'>
+            <ProjectHeader title='Teaching RNNs' />
             <p>
                 As we <Link to='/projects/playnets'> finished our previous learning lab </Link> at the end of my first year, my teammates and I were looking
                 forward to what the next project would be. The PM for that project came to us with a suggestion: 
@@ -21,6 +23,9 @@ function Rnn(){
             <p>
                 Some of the progress we have made so far can be found in our early design figma <a href='https://www.figma.com/file/lX9LTuE5eAonPW0qdnWmkH/Initial-Rough-Design-(Copy)' target="_blank" rel="noopener noreferrer"> here</a>, but please note that this project is still
                 in early development and ill update this page as we continue to work on it.
+            </p>
+            <p>
+                <Link to="/projects">Back to Projects</Link>
             </p>
         </div>
     )

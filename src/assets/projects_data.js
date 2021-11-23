@@ -5,6 +5,7 @@ import cobra_pic from './Cube/cobra.png'
 import piano_pic from './MIDI/piano.png'
 import react_pic from './Site/react.png'
 import discord_pic from './DiscordBot/discord.png'
+import budgie_pic from './Budgie/budgie.svg'
 
 import BeeBlocksPage from './BeeBlocks/BeeBlocksPage'
 import Playnet from './Playnet/Playnet'
@@ -13,6 +14,7 @@ import Rnn from './Rnn/Rnn.js'
 import Midi from './MIDI/Midi.js'
 import Website from './Site/Website.js'
 import DiscordBot from './DiscordBot/DiscordBot'
+import Budgie from './Budgie/Budgie'
 
 const project_dict = {
     'Playnet':{
@@ -51,6 +53,9 @@ const project_dict = {
         'title': 'Budgie',
         'description': 'A musical tool to help teach rhythm',
         'path': '/projects/budgie',
+        'img_src': budgie_pic,
+        'img_alt': 'A logo of a green parakeet',
+        'page':Budgie,
         
     },
     'Website':{

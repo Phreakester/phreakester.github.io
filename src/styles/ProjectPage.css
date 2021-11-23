@@ -1,3 +1,8 @@
+p {
+    margin-bottom: 3%
+}
+
+
 .ppage-wrapper {
     display: flex;
     flex-direction: column;
@@ -5,6 +10,7 @@
     width: 80%;
     background-color: white;
     border-radius: 3vw;
+    margin-bottom: 5%;
 }
 
 .ppage-body {
@@ -12,5 +18,22 @@
     color: black;
     font-weight: bold;
     font-size: min(3vw, 25px);
-    padding: 2%;
+    padding: 3%;
+}
+
+.ppage-img {
+    width: 100%;
+    height: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-radius: 5%;
+}
+
+.ppage-img-small {
+    width: 80%;
+    height: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-radius: 5%;
+    
 }
