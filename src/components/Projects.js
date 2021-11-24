@@ -6,6 +6,7 @@ import './../styles/Projects.css'
 import Header from "./shared/Header"
 
 function Project(props) {
+    const title = props.dict['title'];
     const description = props.dict['description'];
     const img_src = props.dict['img_src'];
     const img_alt = props.dict['img_alt'];
@@ -14,6 +15,7 @@ function Project(props) {
     return(
     <Link to={path} className='project-link'>
         <div className='project-card'>
+            {title && <h1>{title}</h1>}
             {img_src && <img src={img_src} alt={img_alt} className='project-img'/>}
             {description && <div className='project-description'>
                 {description}

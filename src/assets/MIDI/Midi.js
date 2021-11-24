@@ -34,7 +34,7 @@ function Midi(){
                 proved to be the hardest part of the project as there wasn't any documentation form the keyboard.
                 I sat down with a multimeter and tested different configurations until I finally recognized the pattern.
             </p>
-            <img src={multimeter_pic} className='ppage-img-small' />
+            <img src={multimeter_pic} className='ppage-img-vertical' />
             <p>
                 In this case, setting 
                 one of the first 8 wires to ground would set the last 8 wires to measure a specific group of 8 keys.

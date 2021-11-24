@@ -18,7 +18,7 @@ import Budgie from './Budgie/Budgie'
 
 const project_dict = {
     'Playnet':{
-        'title':'Playnet Learning Lab',
+        'title':'Playnet',
         'description':'Teaching schoolkids about the internet',
         'img_src':playnet_pic,
         'img_alt':'A logo of a planet with rings and a play button at its center',
@@ -26,28 +26,12 @@ const project_dict = {
         'page': Playnet,
     },
     'MIDI Keyboard' : {
-        'title':'MIDI Keyboard',
-        'description':'Taking a 70s keyboard into the 2020s',
+        'title':'MIDI Piano',
+        'description':'Taking a retro keyboard into the 2020s',
         'path':'/projects/midikeyboard',
         'img_src': piano_pic,
         'img_alt': 'A logo of a piano / keeyboard',
         'page': Midi,
-    },
-    'Discord':{
-        'title':'Discord Bot',
-        'description':'A discord bot to host game servers for my friends',
-        'path':'/projects/bot',
-        'img_src':discord_pic,
-        'img_alt': 'The Discord logo of a game controller with eyes',
-        'page': DiscordBot,
-    },
-    'RNN' : {
-        'title':'Recurrent Neural Network Larning Lab',
-        'description':'Explaining recurrent neural networks',
-        'path':'/projects/rnns',
-        'img_src':ai_pic,
-        'img_alt':'Blue logo showing computer traces',
-        'page':Rnn,
     },
     'Budgie': {
         'title': 'Budgie',
@@ -56,23 +40,6 @@ const project_dict = {
         'img_src': budgie_pic,
         'img_alt': 'A logo of a green parakeet',
         'page':Budgie,
-        
-    },
-    'Website':{
-        'title':'Personal Website',
-        'description':'The inner workings of the site you are currently on',
-        'path':'/projects/site',
-        'img_src': react_pic,
-        'img_alt': 'The React logo, which looks like a blue atom',
-        'page': Website,
-    },
-    'Cube':{
-        'title':'Magic: The Gathering Cube',
-        'description':'Designing a custom trading card set',
-        'path':'/projects/cube',
-        'img_src': cobra_pic,
-        'img_alt': 'A logo of a green cobra',
-        'page': Cube,
     },
     'BeeBlocks' : {
         'title':'BeeBlocks',
@@ -81,6 +48,38 @@ const project_dict = {
         'img_alt':'this is not a picture',
         'path':'/projects/beeblocks',
         'page':BeeBlocksPage,
+    },
+    'Discord':{
+        'title':'Discord Bot',
+        'description':'A discord bot to host videogame servers',
+        'path':'/projects/bot',
+        'img_src':discord_pic,
+        'img_alt': 'The Discord logo of a game controller with eyes',
+        'page': DiscordBot,
+    },
+    'RNN' : {
+        'title':'RNNs',
+        'description':'Explaining recurrent neural networks',
+        'path':'/projects/rnns',
+        'img_src':ai_pic,
+        'img_alt':'Blue logo showing computer traces',
+        'page':Rnn,
+    },
+    'Website':{
+        'title':'Personal Site',
+        'description':'The inner workings of this site',
+        'path':'/projects/site',
+        'img_src': react_pic,
+        'img_alt': 'The React logo, which looks like a blue atom',
+        'page': Website,
+    },
+    'Cube':{
+        'title':'MTG Cube',
+        'description':'Designing a custom trading card set',
+        'path':'/projects/cube',
+        'img_src': cobra_pic,
+        'img_alt': 'A logo of a green cobra',
+        'page': Cube,
     },
   }
 
