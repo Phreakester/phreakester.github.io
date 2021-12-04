@@ -48,6 +48,7 @@ html{
   display: grid;
   grid-template-columns: 40% 60%;
   justify-items: center;
+  background-color: tomato;
 }
 
 .personal-pic {
