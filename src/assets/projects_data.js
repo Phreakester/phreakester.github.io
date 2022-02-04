@@ -6,6 +6,7 @@ import piano_pic from './MIDI/piano.png'
 import react_pic from './Site/react.png'
 import discord_pic from './DiscordBot/discord.png'
 import budgie_pic from './Budgie/budgie.svg'
+import compass_pic from './TreasureTracker/compass_pic.png'
 
 import BeeBlocksPage from './BeeBlocks/BeeBlocksPage'
 import Playnet from './Playnet/Playnet'
@@ -15,6 +16,7 @@ import Midi from './MIDI/Midi.js'
 import Website from './Site/Website.js'
 import DiscordBot from './DiscordBot/DiscordBot'
 import Budgie from './Budgie/Budgie'
+import TreasureTracker from './TreasureTracker/TreasureTracker'
 
 const project_dict = {
     'Playnet':{
@@ -32,6 +34,15 @@ const project_dict = {
         'img_src': piano_pic,
         'img_alt': 'A logo of a piano / keeyboard',
         'page': Midi,
+    },
+    'Treasure Tracker' : {
+        'title':'Treasure Tracker',
+        'description':'An electronically enchanted compass',
+        'path':'/projects/treasuretracker',
+        'img_src': compass_pic,
+        'img_alt': 'A logo of a compass',
+        'page': TreasureTracker,
+
     },
     'Budgie': {
         'title': 'Budgie',
