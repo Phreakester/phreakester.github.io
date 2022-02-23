@@ -23,9 +23,11 @@ function BeeBlocksPage() {
             <p>I had a fantastic time competing in the design-a-thon, and I learned much about the design process, from ideation and brainstorming
             to pitching and presenting. Our entry earned honorable mention in the awards ceremony and each team member won a Bonsai Tree kit :).
             </p>
-            <p> If you would like to read more about the project, the presentation we created can be found <a 
-            href="https://docs.google.com/presentation/d/1yOINC_jJQQV65akMZLFP2bwIvDO9V3kMZJLUqs0RL-0/edit?usp=sharing"
-            target="_blank" rel="noopener noreferrer">here.</a> </p>
+            <p> 
+                If you would like to read more about the project, the website we created can be
+                found <a href="https://phreakester.github.io/beeblocks/" target="_blank" rel="noopener noreferrer">here</a> and our
+                presentation can be found <a href="https://docs.google.com/presentation/d/1yOINC_jJQQV65akMZLFP2bwIvDO9V3kMZJLUqs0RL-0/edit?usp=sharing"
+                target="_blank" rel="noopener noreferrer">here.</a> </p>
             <p> The code for the website can be found <a
             href="https://github.com/Phreakester/beeblocks"target="_blank" rel="noopener noreferrer">here.</a></p>
             <p>

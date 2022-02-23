@@ -17,15 +17,15 @@ import Website from './Site/Website.js'
 import DiscordBot from './DiscordBot/DiscordBot'
 import Budgie from './Budgie/Budgie'
 import TreasureTracker from './TreasureTracker/TreasureTracker'
+import BajaControls from './BajaControls/BajaControls'
 
 const project_dict = {
-    'Playnet':{
-        'title':'Playnet',
-        'description':'Teaching schoolkids about the internet',
-        'img_src':playnet_pic,
-        'img_alt':'A logo of a planet with rings and a play button at its center',
-        'path':'/projects/playnets',
-        'page': Playnet,
+    'Baja Controls' : {
+        'title':'Racing Team Controls',
+        'description':'Transmission control code',
+        'path':'/projects/bajacontrols',
+        'page': BajaControls,
+
     },
     'MIDI Keyboard' : {
         'title':'MIDI Piano',
@@ -42,7 +42,6 @@ const project_dict = {
         'img_src': compass_pic,
         'img_alt': 'A logo of a compass',
         'page': TreasureTracker,
-
     },
     'Budgie': {
         'title': 'Budgie',
@@ -51,6 +50,14 @@ const project_dict = {
         'img_src': budgie_pic,
         'img_alt': 'A logo of a green parakeet',
         'page':Budgie,
+    },
+    'Playnet':{
+        'title':'Playnet',
+        'description':'Teaching schoolkids about the internet',
+        'img_src':playnet_pic,
+        'img_alt':'A logo of a planet with rings and a play button at its center',
+        'path':'/projects/playnets',
+        'page': Playnet,
     },
     'BeeBlocks' : {
         'title':'BeeBlocks',

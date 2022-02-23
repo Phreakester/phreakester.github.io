@@ -2,6 +2,10 @@ import { Link } from "react-router-dom";
 
 import './../../styles/ProjectPage.css';
 
+import cardboard_pic from './cardboard_version.jpg';
+import cad_render from './cad.jpg';
+import electronics_pic from './electronics.jpg';
+
 import ProjectHeader from "../../components/shared/ProjectHeader";
 
 function TreasureTracker() {
@@ -15,6 +19,7 @@ function TreasureTracker() {
                 anywhere on the globe. In addition, it is able to store and track up to four different locations simultaneously, 
                 and switch between them on the fly.
             </p>
+            <img src={cardboard_pic} className='ppage-img' />
             <p>
                 The device uses several components, including an accelerometer, magnetometer, and a GPS module. First, the GPS module will
                 compare the user's current location with the one stored in the Arduino Nano. It will then calculate the direction the stored
@@ -22,6 +27,7 @@ function TreasureTracker() {
                 to point in the correct direction. The readout of the compass is achieved by using a servo connected to a gear train to rotate
                 the compass face with a painted on arrow.
             </p>
+            <img src={electronics_pic} className='ppage-img' />
             <p>
                 I helped primarily with the housing for the entire device, but also worked on the electrical design as well as the writeup
                 and final presentation. The container was designed to be very similar to the one seen in the movie, but ours had the added
@@ -31,6 +37,7 @@ function TreasureTracker() {
                 3D printing and were unable to print my CAD designs. However, we were able to create a temporary cardboard box for the judging 
                 and I included some renders of the CAD to show what the project would have looked like in the 3D printed enclosure.
             </p>
+            <img src={cad_render} className='ppage-img' />
             <p>
                 When designing the device, I knew that the print time of the enclosure had to be able to print before the judging began. Even
                 though we were unable to print it, I was still proud of the effort I put in to make sure that we wouldn't have any headaches 

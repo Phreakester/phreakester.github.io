@@ -11,7 +11,6 @@ function Project(props) {
     const img_src = props.dict['img_src'];
     const img_alt = props.dict['img_alt'];
     const path = props.dict['path'];
-    console.log(description);
     return(
     <Link to={path} className='project-link'>
         <div className='project-card'>
