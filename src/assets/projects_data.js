@@ -7,6 +7,7 @@ import react_pic from './Site/react.png'
 import discord_pic from './DiscordBot/discord.png'
 import budgie_pic from './Budgie/budgie.svg'
 import compass_pic from './TreasureTracker/compass_pic.png'
+import br_pic from './BajaControls/br_logo.png'
 
 import BeeBlocksPage from './BeeBlocks/BeeBlocksPage'
 import Playnet from './Playnet/Playnet'
@@ -21,9 +22,11 @@ import BajaControls from './BajaControls/BajaControls'
 
 const project_dict = {
     'Baja Controls' : {
-        'title':'Racing Team Controls',
-        'description':'Transmission control code',
+        'title':'Racing Team',
+        'description':'Programming an offroad vehicle transmission',
         'path':'/projects/bajacontrols',
+        'img_src':br_pic,
+        'img_alt':'Blue logo of a bear',
         'page': BajaControls,
 
     },
@@ -36,7 +39,7 @@ const project_dict = {
         'page': Midi,
     },
     'Treasure Tracker' : {
-        'title':'Treasure Tracker',
+        'title':'E-Compass',
         'description':'An electronically enchanted compass',
         'path':'/projects/treasuretracker',
         'img_src': compass_pic,
