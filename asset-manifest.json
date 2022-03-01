@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.33d1f691.chunk.css",
+    "main.css": "/static/css/main.e2c1f071.chunk.css",
     "main.js": "/static/js/main.c364dc73.chunk.js",
     "main.js.map": "/static/js/main.c364dc73.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b4ca4fe9.js",
@@ -12,7 +12,7 @@
     "6edf22c7883da78820dcc980006a58e6.js": "/6edf22c7883da78820dcc980006a58e6.js",
     "6edf22c7883da78820dcc980006a58e6.js.LICENSE.txt": "/6edf22c7883da78820dcc980006a58e6.js.LICENSE.txt",
     "index.html": "/index.html",
-    "static/css/main.33d1f691.chunk.css.map": "/static/css/main.33d1f691.chunk.css.map",
+    "static/css/main.e2c1f071.chunk.css.map": "/static/css/main.e2c1f071.chunk.css.map",
     "static/js/2.2d58c5dc.chunk.js.LICENSE.txt": "/static/js/2.2d58c5dc.chunk.js.LICENSE.txt",
     "static/media/Bee2.545dd4a9.svg": "/static/media/Bee2.545dd4a9.svg",
     "static/media/ai_wordmark.915e1907.svg": "/static/media/ai_wordmark.915e1907.svg",
@@ -44,7 +44,7 @@
   "entrypoints": [
     "static/js/runtime-main.b4ca4fe9.js",
     "static/js/2.2d58c5dc.chunk.js",
-    "static/css/main.33d1f691.chunk.css",
+    "static/css/main.e2c1f071.chunk.css",
     "static/js/main.c364dc73.chunk.js"
   ]
 }
