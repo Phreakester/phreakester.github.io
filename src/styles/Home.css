@@ -94,6 +94,11 @@ column-gap: 2%;
 margin-bottom: 5%;
 }
 
+.continue-container a {
+  text-decoration: none;
+  color: black;
+}
+
 .continue-button{
 text-align: center;
 justify-content: center;

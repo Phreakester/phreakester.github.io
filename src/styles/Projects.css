@@ -14,6 +14,11 @@ h2 {
     margin-left: 4%;
 }
 
+.projects-wrapper a {
+    text-decoration: none;
+    color: black;
+}
+
 .project-card {
     display: flex;
     flex-direction: column;
