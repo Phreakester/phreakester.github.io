@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-  BrowserRouter as Router,
+  HashRouter,
   Routes,
   Route,
 } from "react-router-dom";
@@ -31,7 +31,7 @@ css_body.style.setProperty("--gradient", gradient);
 
 ReactDOM.render(
   <React.StrictMode>
-    <Router>
+    <HashRouter>
       <Routes>
         {Object.keys(project_dict).map((project_name) => 
           <Route path={project_dict[project_name]['path']} element={<ProjectPage dict={project_dict[project_name]} />} />
@@ -41,7 +41,7 @@ ReactDOM.render(
         <Route path="/resume" element={<Resume />} />
         <Route path="/" element={<Home /> } />
       </Routes>
-    </Router>
+    </HashRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );
